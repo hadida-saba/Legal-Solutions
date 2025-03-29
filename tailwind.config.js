@@ -2,8 +2,18 @@
  export default {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+      },
     },
     plugins: [],
+  }
+
+  module.exports = {
+    theme: {
+      extend: { 
+        backgroundImage:{
+         'banner': "url('images/banner.png')",}
+      }
+    }
   }
 
